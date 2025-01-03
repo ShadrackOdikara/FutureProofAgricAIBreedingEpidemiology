@@ -1,0 +1,10 @@
+langchain
+streamlit
+python-dotenv
+transformers
+accelerate
+PyPDF2
+
+
+
+-e .

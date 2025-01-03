@@ -1,0 +1,176 @@
+ City                , Country         , Region/County      , Agroecological Zone     
+ Nairobi             , Kenya          , Nairobi County     , Tropical Highland Zone  
+ Lima                , Peru           , Lima Region        , Coastal Zone           
+ Beijing             , China          , Beijing Municipality, Temperate Zone         
+ New Delhi           , India          , Delhi              , Semi-Arid Zone         
+ Kampala             , Uganda         , Central Region     , Tropical Highland Zone  
+ Ol Kalou            , Kenya          , Nyandarua County   , Tropical Highland Zone  
+ Engineer            , Kenya          , Nyandarua County   , Tropical Highland Zone  
+ Njabini  , Kenya          , Nyandarua County   , Tropical Highland Zone  
+ Meru                , Kenya          , Meru County        , Tropical Highland Zone  
+ Maua                , Kenya          , Meru County        , Tropical Highland Zone  
+ Timau               , Kenya          , Meru County        , Tropical Highland Zone  
+ Iten                , Kenya          , Elgeyo-Marakwet    , Tropical Highland Zone  
+ Kapsowar            , Kenya          , Elgeyo-Marakwet    , Tropical Highland Zone  
+ Molo                , Kenya          , Nakuru County      , Tropical Highland Zone  
+ Njoro               , Kenya          , Nakuru County      , Tropical Highland Zone  
+ Nakuru              , Kenya          , Nakuru County      , Tropical Highland Zone  
+ Kuresoi             , Kenya          , Nakuru County      , Tropical Highland Zone  
+ Thika               , Kenya          , Kiambu County      , Tropical Highland Zone  
+ Limuru              , Kenya          , Kiambu County      , Tropical Highland Zone  
+ Githunguri          , Kenya          , Kiambu County      , Tropical Highland Zone  
+ Bomet               , Kenya          , Bomet County       , Tropical Highland Zone  
+ Sotik               , Kenya          , Bomet County       , Tropical Highland Zone  
+ Mulot               , Kenya          , Bomet County       , Tropical Highland Zone  
+ Nyeri               , Kenya          , Nyeri County       , Tropical Highland Zone  
+ Karatina            , Kenya          , Nyeri County       , Tropical Highland Zone  
+ Kerugoya            , Kenya          , Kirinyaga County   , Tropical Highland Zone  
+ Kutus               , Kenya          , Kirinyaga County   , Tropical Highland Zone  
+ Eldoret             , Kenya          , Uasin Gishu County , Tropical Highland Zone  
+ Turbo               , Kenya          , Uasin Gishu County , Tropical Highland Zone  
+ Mois Bridge         , Kenya          , Uasin Gishu County , Tropical Highland Zone  
+ Kitale              , Kenya          , Trans-Nzoia County , Tropical Highland Zone  
+ Endebess            , Kenya          , Trans-Nzoia County , Tropical Highland Zone  
+ Kapenguria          , Kenya          , West Pokot County  , Tropical Highland Zone  
+ Makutano            , Kenya          , West Pokot County  , Tropical Highland Zone  
+ Bungoma             , Kenya          , Bungoma County     , Tropical Highland Zone  
+ Webuye              , Kenya          , Bungoma County     , Tropical Highland Zone  
+ Cuzco               , Peru           , Cusco Region       , Highland Zone          
+ Pisac               , Peru           , Cusco Region       , Highland Zone          
+ Urubamba            , Peru           , Cusco Region       , Highland Zone          
+ Puno                , Peru           , Puno Region        , Highland Zone          
+ Juliaca             , Peru           , Puno Region        , Highland Zone          
+ Ayaviri             , Peru           , Puno Region        , Highland Zone          
+ Huancavelica        , Peru           , Huancavelica Region, Highland Zone          
+ Lircay              , Peru           , Huancavelica Region, Highland Zone          
+ Pampas              , Peru           , Huancavelica Region, Highland Zone          
+ Huancayo            , Peru           , Junín Region       , Highland Zone          
+ Jauja               , Peru           , Junín Region       , Highland Zone          
+ Tarma               , Peru           , Junín Region       , Highland Zone          
+ Ayacucho            , Peru           , Ayacucho Region    , Highland Zone          
+ Huanta              , Peru           , Ayacucho Region    , Highland Zone          
+ San Miguel          , Peru           , Ayacucho Region    , Highland Zone          
+ Huaraz              , Peru           , Ancash Region      , Highland Zone          
+ Caraz               , Peru           , Ancash Region      , Highland Zone          
+ Chacas              , Peru           , Ancash Region      , Highland Zone          
+ Cajamarca           , Peru           , Cajamarca Region   , Highland Zone          
+ Celendín            , Peru           , Cajamarca Region   , Highland Zone          
+ Jaén                , Peru           , Cajamarca Region   , Highland Zone          
+ Arequipa            , Peru           , Arequipa Region    , Coastal Zone           
+ Chivay              , Peru           , Arequipa Region    , Highland Zone          
+ Camaná              , Peru           , Arequipa Region    , Coastal Zone           
+ Abancay             , Peru           , Apurímac Region    , Highland Zone          
+ Andahuaylas         , Peru           , Apurímac Region    , Highland Zone          
+ Huaral              , Peru           , Lima Region        , Coastal Zone           
+ Huacho              , Peru           , Lima Region        , Coastal Zone           
+ Canta               , Peru           , Lima Region        , Coastal Zone           
+ Cerro de Pasco      , Peru           , Pasco Region       , Highland Zone          
+ Oxapampa            , Peru           , Pasco Region       , Highland Zone          
+ Trujillo            , Peru           , La Libertad Region , Coastal Zone           
+ Otuzco              , Peru           , La Libertad Region , Highland Zone          
+ Huamachuco          , Peru           , La Libertad Region , Highland Zone          
+ Agra                , India          , Uttar Pradesh      , Semi-Arid Zone         
+ Kannauj             , India          , Uttar Pradesh      , Semi-Arid Zone         
+ Farrukhabad         , India          , Uttar Pradesh      , Semi-Arid Zone         
+ Aligarh             , India          , Uttar Pradesh      , Semi-Arid Zone         
+ Kolkata             , India          , West Bengal        , Humid Subtropical Zone 
+ Hooghly             , India          , West Bengal        , Humid Subtropical Zone 
+ Bardhaman           , India          , West Bengal        , Humid Subtropical Zone 
+ Cooch Behar         , India          , West Bengal        , Humid Subtropical Zone 
+ Patna               , India          , Bihar              , Humid Subtropical Zone 
+ Nalanda             , India          , Bihar              , Humid Subtropical Zone 
+ Muzaffarpur         , India          , Bihar              , Humid Subtropical Zone 
+ Gaya                , India          , Bihar              , Humid Subtropical Zone 
+ Jalandhar           , India          , Punjab             , Semi-Arid Zone         
+ Amritsar            , India          , Punjab             , Semi-Arid Zone         
+ Ludhiana            , India          , Punjab             , Semi-Arid Zone         
+ Hoshiarpur          , India          , Punjab             , Semi-Arid Zone         
+ Ahmedabad           , India          , Gujarat            , Semi-Arid Zone         
+ Deesa               , India          , Gujarat            , Semi-Arid Zone         
+ Gandhinagar         , India          , Gujarat            , Semi-Arid Zone         
+ Banaskantha         , India          , Gujarat            , Semi-Arid Zone         
+ Indore              , India          , Madhya Pradesh     , Semi-Arid Zone         
+ Gwalior             , India          , Madhya Pradesh     , Semi-Arid Zone         
+ Bhopal              , India          , Madhya Pradesh     , Semi-Arid Zone         
+ Hoshangabad         , India          , Madhya Pradesh     , Semi-Arid Zone         
+ Shimla              , India          , Himachal Pradesh   , Temperate Zone         
+ Solan               , India          , Himachal Pradesh   , Temperate Zone         
+ Mandi               , India          , Himachal Pradesh   , Temperate Zone         
+ Kullu               , India          , Himachal Pradesh   , Temperate Zone         
+ Dehradun            , India          , Uttarakhand        , Humid Subtropical Zone 
+ Nainital            , India          , Uttarakhand        , Humid Subtropical Zone 
+ Almora              , India          , Uttarakhand        , Humid Subtropical Zone 
+ Haldwani            , India          , Uttarakhand        , Humid Subtropical Zone 
+ Bengaluru           , India          , Karnataka          , Humid Tropical Zone    
+ Hassan              , India          , Karnataka          , Humid Tropical Zone    
+ Mysuru              , India          , Karnataka          , Humid Tropical Zone    
+ Chikkamagaluru      , India          , Karnataka          , Humid Tropical Zone    
+ Guwahati            , India          , Assam              , Humid Subtropical Zone 
+ Jorhat              , India          , Assam              , Humid Subtropical Zone 
+ Tezpur              , India          , Assam              , Humid Subtropical Zone 
+ Dibrugarh           , India          , Assam              , Humid Subtropical Zone 
+ Ranchi              , India          , Jharkhand          , Humid Subtropical Zone 
+ Dhanbad             , India          , Jharkhand          , Humid Subtropical Zone 
+ Hazaribagh          , India          , Jharkhand          , Humid Subtropical Zone 
+ Bokaro              , India          , Jharkhand          , Humid Subtropical Zone 
+ Shillong            , India          , Meghalaya          , Humid Subtropical Zone 
+ Tura                , India          , Meghalaya          , Humid Subtropical Zone 
+ Jowai               , India          , Meghalaya          , Humid Subtropical Zone 
+ Hohhot              , China          , Inner Mongolia     , Temperate Zone         
+ Baotou              , China          , Inner Mongolia     , Temperate Zone         
+ Chifeng             , China          , Inner Mongolia     , Temperate Zone         
+ Harbin              , China          , Heilongjiang       , Temperate Zone         
+ Qiqihar             , China          , Heilongjiang       , Temperate Zone         
+ Mudanjiang          , China          , Heilongjiang       , Temperate Zone         
+ Lanzhou             , China          , Gansu              , Arid Zone             
+ Tianshui            , China          , Gansu              , Arid Zone             
+ Dingxi              , China          , Gansu              , Arid Zone             
+ Kunming             , China          , Yunnan             , Humid Subtropical Zone 
+ Dali                , China          , Yunnan             , Humid Subtropical Zone 
+ Lijiang             , China          , Yunnan             , Humid Subtropical Zone 
+ Chengdu             , China          , Sichuan            , Humid Subtropical Zone 
+ Mianyang            , China          , Sichuan            , Humid Subtropical Zone 
+ Dazhou              , China          , Sichuan            , Humid Subtropical Zone 
+ Guiyang             , China          , Guizhou            , Humid Subtropical Zone 
+ Anshun              , China          , Guizhou            , Humid Subtropical Zone 
+ Zunyi               , China          , Guizhou            , Humid Subtropical Zone 
+ Xian                , China          , Shaanxi            , Arid Zone             
+ Baoji               , China          , Shaanxi            , Arid Zone             
+ Yulin               , China          , Shaanxi            , Arid Zone             
+ Chongqing City      , China          , Chongqing Municipality, Humid Subtropical Zone 
+ Wanzhou             , China          , Chongqing Municipality, Humid Subtropical Zone 
+ Yongchuan           , China          , Chongqing Municipality, Humid Subtropical Zone 
+ Yinchuan            , China          , Ningxia            , Arid Zone             
+ Shizuishan          , China          , Ningxia            , Arid Zone             
+ Zhongwei            , China          , Ningxia            , Arid Zone             
+ Urumqi              , China          , Xinjiang           , Arid Zone             
+ Kashgar             , China          , Xinjiang           , Arid Zone             
+ Korla               , China          , Xinjiang           , Arid Zone             
+ Xining              , China          , Qinghai            , Arid Zone             
+ Golmud              , China          , Qinghai            , Arid Zone             
+ Lhasa               , China          , Tibet              , Highland Zone          
+ Shigatse            , China          , Tibet              , Highland Zone          
+ Kabale              , Uganda         , Western Region     , Tropical Highland Zone  
+ Katuna              , Uganda         , Western Region     , Tropical Highland Zone  
+ Kisoro              , Uganda         , Western Region     , Tropical Highland Zone  
+ Bunagana            , Uganda         , Western Region     , Tropical Highland Zone  
+ Mbale               , Uganda         , Eastern Region     , Tropical Highland Zone  
+ Bududa              , Uganda         , Eastern Region     , Tropical Highland Zone  
+ Kapchorwa           , Uganda         , Eastern Region     , Tropical Highland Zone  
+ Suam                , Uganda         , Eastern Region     , Tropical Highland Zone  
+ Kasese              , Uganda         , Western Region     , Tropical Highland Zone  
+ Hima                , Uganda         , Western Region     , Tropical Highland Zone  
+ Fort Portal         , Uganda         , Western Region     , Tropical Highland Zone  
+ Kijura              , Uganda         , Western Region     , Tropical Highland Zone  
+ Bundibugyo          , Uganda         , Western Region     , Tropical Highland Zone  
+ Nyahuka             , Uganda         , Western Region     , Tropical Highland Zone  
+ Mbarara             , Uganda         , Western Region     , Tropical Highland Zone  
+ Isingiro            , Uganda         , Western Region     , Tropical Highland Zone  
+ Bushenyi            , Uganda         , Western Region     , Tropical Highland Zone  
+ Ishaka              , Uganda         , Western Region     , Tropical Highland Zone  
+ Rukungiri           , Uganda         , Western Region     , Tropical Highland Zone  
+ Kanungu             , Uganda         , Western Region     , Tropical Highland Zone  
+ Ntungamo            , Uganda         , Western Region     , Tropical Highland Zone  
+ Rwashamaire         , Uganda         , Western Region     , Tropical Highland Zone  
+ Rubanda             , Uganda         , Western Region     , Tropical Highland Zone  
+ Ikumba              , Uganda         , Western Region     , Tropical Highland Zone  

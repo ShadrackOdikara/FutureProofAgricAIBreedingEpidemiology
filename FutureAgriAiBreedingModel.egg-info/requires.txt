@@ -1,0 +1,16 @@
+langchain
+streamlit
+ollama
+torch
+gspread
+networkx
+python-dotenv
+scikit-learn
+re
+os
+json
+transformers
+numpy
+pandas
+sentence-transformers
+accelerate

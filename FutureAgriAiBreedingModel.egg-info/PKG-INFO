@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: FutureAgriAiBreedingModel
+Version: 0.0.1
+Author: Shadrack Odikara and Meshack Emakunat
+Author-email: shadrack.imai@gmail.com
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: ollama
+Requires-Dist: torch
+Requires-Dist: gspread
+Requires-Dist: networkx
+Requires-Dist: python-dotenv
+Requires-Dist: scikit-learn
+Requires-Dist: re
+Requires-Dist: os
+Requires-Dist: json
+Requires-Dist: transformers
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sentence-transformers
+Requires-Dist: accelerate

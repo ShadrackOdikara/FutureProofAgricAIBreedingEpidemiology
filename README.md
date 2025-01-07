@@ -1,59 +1,95 @@
-# Future Proofing Agric With AI for Plant Breeding and Epidemiology Disease Management
-\\
-Welcome to our AI based crop epidemiological model designed to predict the optimum \
-trait combination for potato cultivation in five countries namely Kenya, Uganda, \
-Peru, China and India. This is based on an ensemble of various AI models and an \
-epidemiological model as a Retrieval Augumented Generation RAGs system. \
-\
-The AI model described above introduces a novel approach to simulating the dynamics \
-of crop disease outbreaks through a "country-blocked" network, capturing the complexities \
-of agricultural trade, environmental conditions, and regional interactions. \
-\
-The model represents agricultural regions (e.g., cities or farming hubs) as nodes in a \
-graph, with edges connecting them based on trade routes, shared climate zones, or geographical \
-proximity. Each node is assigned attributes like crop type, disease susceptibility interms \
-f cumulative score for each and every disease. \
-\\
-## How To Install 
-\
-### Download the model by git cloning the reposotory
-\
-Open the  ./AI_models/potato_Wizard_v59 \
-Go to the file named Modelfiles \
-Edit the path to your curent path e.g change ./home/shadrack/Documents/CIPotatoe \
-To ./Your/path/potato_Wizard_v59/potato_Wizard_v59.gguf \
-\
-### Install ollama to your computer
-Install Ollama on macOS: Use the command 
-...bash 
+# Future Proofing Agriculture with AI for Plant Breeding and Epidemiological Disease Management
+
+Welcome to our AI-based crop epidemiological model, designed to predict the optimum trait combination for potato cultivation in five countries: Kenya, Uganda, Peru, China, and India. This model leverages an ensemble of various AI systems and an epidemiological model, functioning as a Retrieval-Augmented Generation (RAG) system.
+
+The AI model introduces a novel approach to simulating the dynamics of crop disease outbreaks through a "country-blocked" network, capturing the complexities of agricultural trade, environmental conditions, and regional interactions.
+
+The model represents agricultural regions (e.g., cities or farming hubs) as nodes in a graph, with edges connecting them based on trade routes, shared climate zones, or geographical proximity. Each node is assigned attributes such as crop type and disease susceptibility, represented as a cumulative score for each disease.
+
+---
+
+## How to Install 
+
+### Step 1: Download the Model 
+
+#### Option 1: Download the Model in GGUF Format
+
+```bash
+CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=1A0cRoxW0BiB7oHZfRNWSQ2UgOhEbOkeW" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
+curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=1A0cRoxW0BiB7oHZfRNWSQ2UgOhEbOkeW" -o potato_Wizard_v59.zip
+```
+
+#### Option 2: Download the the Full Models Combined
+
+```bash
+CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${19cQGtvHRcTn4RRplXXiPuM5PJuwV3yUs}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
+curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=${19cQGtvHRcTn4RRplXXiPuM5PJuwV3yUs}" -o ${AI_models.zip}
+```
+### Step 2: Download the Scoring Model
+
+```bash
+CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${1o6qu2oUe9V0yattIyqCZ0P9aK4obO9Vt}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
+curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=${1o6qu2oUe9V0yattIyqCZ0P9aK4obO9Vt}" -o ${scoring_model.zip}
+```
+### Step 3: Download and Install Ollama
+
+Install Ollama on macOS: Use the command  
+```bash 
 curl https://ollama.ai/install.sh | sh. 
-...\
-Install Ollama on Linux: Use the command 
-...bash
+```
+
+Install Ollama on Linux: Use the command  
+
+```bash
 curl -fsSL https://ollama.ai/install.sh | bash. 
-...\
-Install Ollama on Windows: Download the installer from Ollama's official download page, run the installer, and follow the prompts. \
-Install Ollama as a standalone CLI on Windows: Use the ollama-windows-amd64.zip zip file. \
+```
 
-Go to terminal and enter the command \
-...bash
+Install Ollama on Windows: Download the installer from Ollama's official download page, run the installer, and follow the prompts. 
+Install Ollama as a standalone CLI on Windows: Use the ollama-windows-amd64.zip zip file. 
+
+
+### Step 4: Download the EFPR from the git hub repository by cloning
+
+```bash
+git clone https://github.com/ShadrackOdikara/FutureProofAgricAIBreedingEpidemiology.git
+```
+
+
+install dependencies by entering the command 
+
+```bash
+pip install -r requirements.txt
+```
+ 
+
+## How to Use the Model  
+
+Go to terminal and enter the command  
+```bash
 ollama create potato_Wizard_v59 -f Modelfile
-...
-\
-wait until the creation is complete
+```
 
-## To use the model
-Enter the command \
-...bash
+wait until the creation is complete  
+
+### To use the model
+Enter the CLI commands
+
+```bash
+python potato_WizardEFRP.py
+```
+
+or in a raw form while streaming
+
+```bash
 ollama run potato_Wizard_v59
-...
-\
+```
+
 You will get the 
-...bash
+```bash
 >>> 
-...
-\
-sign. Now you can continue interacting with the ai \
+```
+
+sign. Now you can continue interacting with the AI offline mode 
 
 Type "who are you"
 

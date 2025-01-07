@@ -1,0 +1,9 @@
+README.md
+setup.py
+FutureAgriAiBreedingModel.egg-info/PKG-INFO
+FutureAgriAiBreedingModel.egg-info/SOURCES.txt
+FutureAgriAiBreedingModel.egg-info/dependency_links.txt
+FutureAgriAiBreedingModel.egg-info/requires.txt
+FutureAgriAiBreedingModel.egg-info/top_level.txt
+src/__init__.py
+src/FutureAgriAiBreedingModel/__init__.py

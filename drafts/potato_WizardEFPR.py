@@ -89,10 +89,29 @@ with open(data_path + 'potatoDiseaseprofile.csv', 'r') as potato_file:
 with open(data_path + 'EpidemiologyAgroecologicalZones.csv', 'r') as zones_file:
     AgroEcologyZones = pd.read_csv(zones_file)
 
+with open(data_path + 'soilData.csv', 'r') as soil_file:
+    soilData = pd.read_csv(soil_file)
+
 """Clean the data and remove white spaces before and after"""
 AgroEcologyZones = AgroEcologyZones.rename(columns=lambda x: x.strip())
 AgroEcologyZones = AgroEcologyZones.map(lambda x: x.strip() if isinstance(x, str) else x)
 data = pd.DataFrame(data)
+
+###################################################################
+###########Soil Data Analysis for intergration into the model
+###################################################################
+def parse_soilrange(range_str):
+    """Parse string ranges (e.g., '4.5 – 6.5') into tuples of floats."""
+    return tuple(map(float, range_str.replace("–", "-").split("-")))
+
+# Apply the parsing function to create new columns for pH min and max
+soilData[['pH Min', 'pH Max']] = soilData['pH Range'].apply(parse_soilrange).apply(pd.Series)
+
+#soilData['pH Min'] = soilData['pH Min'].fillna(9999)
+#soilData['pH Max'] = soilData['pH Max'].fillna(9999)
+
+print(soilData)
+
 
 
 # Load the dataset
@@ -142,8 +161,8 @@ Next, we merge the two dataframes to create a single dataframe containing all th
 corresponding attributes of the area the weather data pertains to. These areas represent known potato growing regions 
 for each country within the hackathon/project.
 """
-results = results.reset_index()
-merged_df = pd.merge(results, AgroEcologyZones, on='City', how='outer')
+#results = results.reset_index()
+#merged_df = pd.merge(results, AgroEcologyZones, on='City', how='outer')
 
 """  
     Here we introduce linear regression to predict the future state of the climate parameters that will be used 
@@ -211,6 +230,10 @@ combined_predictions.index.name = 'City'
 print("\nPredicted values for 10/1/2025 per city:")
 print(combined_predictions)
 
+combined_predictions.rename(columns={'Temperature': 'Mean Temperature', 'Humidity': 'Mean Humidity', 'Wind Speed': 'Mean Wind Speed'}, inplace=True)
+combined_predictions = combined_predictions.reset_index()
+merged_df = pd.merge(combined_predictions, AgroEcologyZones, on='City', how='outer')
+merged_df = pd.merge(merged_df, soilData, on='City', how='outer')
 #print(hum_predictions_df)
 
 #print(f"{city}: {temp:.2f} {hum:.2f}")
@@ -247,6 +270,13 @@ def parse_range(range_str):
 # Suitability calculation function
 def calculate_suitability_from_disease_data(city, disease_data):
     suitability_scores = []
+
+    # To Handle missing or invalid pH values since the soilData is not complete for all the countries
+    pH_min = city.get('pH Min', np.nan)
+    pH_max = city.get('pH Max', np.nan)
+    if pd.isna(pH_min) or pd.isna(pH_max) or pH_min > pH_max:
+        pH_min, pH_max = 9999, 9999  # Default invalid values to a high number
+
     for _, disease_row in disease_data.iterrows():
         disease_name = disease_row['Disease/Disorder']
         temp_range = parse_range(disease_row['Ideal Temperature Range (°C)'])
@@ -255,15 +285,16 @@ def calculate_suitability_from_disease_data(city, disease_data):
 
         # Calculate suitability
         temp_suitability = int(temp_range[0] <= city['Mean Temperature'] <= temp_range[1])
-        #pH_suitability = int(pH_range[0] <= city['Soil_pH'] <= pH_range[1])
+        pH_suitability = int(not (pH_min > pH_range[0] or pH_max < pH_range[1]))  # Optimized range overlap check
         humidity_suitability = int(humidity_range[0] <= city['Mean Humidity'] <= humidity_range[1])
-        wind_suitability = 1  # Later on we will add wind speed criteria here
+        wind_suitability = 1  # Placeholder for wind speed suitability
 
         # Calculate total suitability score
-        total_score = temp_suitability + humidity_suitability + wind_suitability
+        total_score = temp_suitability + pH_suitability + humidity_suitability + wind_suitability
         suitability_scores.append([disease_name, total_score, city['Mean Temperature'], city['Mean Humidity'], city['Mean Wind Speed']])
 
     return suitability_scores
+
     
 cities_data["Risk_Vector"] = np.nan
 
@@ -494,13 +525,26 @@ def parse_file(epi_risks, users_city):
     risk_lines = [line for line in epi_risks if f"City: {users_city}" in line]
     return risk_lines
 
+#if users_city:
+#    matched_lines = parse_file(epi_risks, users_city)
+#    print("Matched Lines:", matched_lines)
+#else:
+#    matched_lines = []
+#    print("No matched lines since no city was identified.")
+ 
 if users_city:
     matched_lines = parse_file(epi_risks, users_city)
     print("Matched Lines:", matched_lines)
+    city_info = "\n".join([f": {line}" for line in matched_lines])
 else:
-    matched_lines = []
     print("No matched lines since no city was identified.")
-    
+    matched_lines = []
+    city_info = "No specific city information was found. General insights are provided based on climate and disease data."
+
+# Add this to ensure `epi_info` is defined for all cases
+epi_info = cities_data.to_json(orient="records", lines=False) if users_city else "{}"
+
+   
 def save_embeddings(filename, embeddings):
     """Save embeddings to a JSON file."""
     if not os.path.exists("embeddings"):
@@ -536,7 +580,18 @@ def find_most_similar(needle, haystack):
     return sorted(zip(similarity_scores, range(len(haystack))), reverse=True)
 
 # Generate embeddings
-embeddings = get_embeddings("epi_risks", "potato_Wizard_v59", matched_lines)
+#embeddings = get_embeddings("epi_risks", "potato_Wizard_v59", matched_lines)
+
+if matched_lines:
+    embeddings = get_embeddings("epi_risks", "potato_Wizard_v59", matched_lines)
+    prompt_embedding = ollama.embeddings(model="potato_Wizard_v59", prompt=prompt)["embedding"]
+    most_similar_chunks = find_most_similar(prompt_embedding, embeddings)[:5]
+
+    for score, idx in most_similar_chunks:
+        print(score, matched_lines[idx])
+else:
+    embeddings = []
+    print("Skipping embedding generation as no matched lines were found.")
 
 
 """We have cities with varying temperature and humidity levels, which affect or impact the occurrence of different 
@@ -555,7 +610,7 @@ print(cities_data.head())
 
 cities_data.drop(columns=['Risk_Vector'], inplace=True)
 row = cities_data.loc[cities_data['City'] == users_city]
-epi_info = row.to_json(orient="records", lines=False)
+#epi_info = row.to_json(orient="records", lines=False)
 
 
 # Prompt embedding and similarity search
@@ -573,11 +628,13 @@ response = ollama.chat(
         {
             "role": "system",
             "content": SYSTEM_PROMPT
-            + ": Please refer to the fact that " + "\n".join([f": {line}" for line in matched_lines]) + epi_info,
+            + ": Please refer to the fact that " + "\n".join([f": {line}" for line in matched_lines]) #+ epi_info,
+            + f"\nEpidemiological data:\n{epi_info}",
         },
         {"role": "user", "content": prompt},
     ],
 )
+
 #print("\n\n")
 #print(response["message"]["content"])
 
@@ -643,7 +700,7 @@ def find_best_hypothesis(response, hypotheses, threshold=20.0):
             probabilities = torch.softmax(logits, dim=-1)
 
         label_id = torch.argmax(probabilities, dim=-1).item()
-        label = ["entailment", "contradiction", "neutral"][label_id]
+        label = ["neutral", "contradiction", "entailment"][label_id]
         confidence_score = probabilities[0][label_id].item() * 100  # Convert to percentage
 
         # Only include hypotheses with confidence scores above the threshold
@@ -664,12 +721,76 @@ print("Top Matching Hypotheses:")
 for hypothesis, label, score in similarities[:3]:  # Top 3 matches
     print("\n\n")
     print(response["message"]["content"])
-    print("\n\n")
+    print("\n")
     print(f"Your query aligns to global standard development goal : {hypothesis}")
     print(f"by : {label}")
     print(f"with a confidence score: {score:.2f}%\n")
 
 ##############################################################################
+#####3########CONTINOUS TIME MARKOV CHAIN MODEL##################################
+##################################################################################
+
+"""
+From the concepts in fanancial modeling we decided to borrow models that can be able to predict 
+future states while encountering so many unknowns and noise that might interfere with the future 
+state. Using the Black-Scholes partial differential equation (PDE) in the context of Markov chain 
+models for predicting future states, such as confidence of archiving the goals targets and connectivity. 
+The Black-Scholes equation 
+models the evolution of financial instruments (like options) over time, incorporating factors like 
+time decay (time), volatility (risk determinant), and the asset price (SDG goal Target).
+
+To use the Black-Scholes equation in place of the noise or transition dynamics in your model, we 
+need to adapt its components to fit your context.
+
+"""
+# Initial conditions
+initial_accuracy = score / 100  # Starting accuracy Is the confidence score for the semantic similarity classification
+initial_connectivity = 50  # Starting connectivity index
+
+# User input for the number of future steps
+n_steps = 5 # We default it to five years since we are five years away from 2030#int(input("Enter the number of future steps to predict: "))
+
+# Black-Scholes parameters adapted for the model
+r = 0.03  #determinant/1000# Analogous to drift rate or constant change rate
+sigma =  0.1  # Analogous to volatility or noise in the system # synonimous with risk determinant
+dt = 1  # Time step, can be adjusted to your needs
+
+# Function to simulate state transitions using adapted Black-Scholes dynamics
+def simulate_black_scholes(initial_accuracy, initial_connectivity, n_steps, r, sigma, dt):
+    accuracies = [initial_accuracy]
+    connectivities = [initial_connectivity]
+
+    for step in range(n_steps):
+        # Apply Black-Scholes dynamics to simulate the next state
+        S_acc = accuracies[-1]
+        S_con = connectivities[-1]
+
+        # Simulate changes using Black-Scholes-like dynamics
+        dV_acc = r * S_acc * dt + 0.5 * sigma**2 * S_acc**2 * np.random.normal(0, np.sqrt(dt))
+        dV_con = r * S_con * dt + 0.5 * sigma**2 * S_con**2 * np.random.normal(0, np.sqrt(dt))
+
+        # Update states
+        new_accuracy = accuracies[-1] + dV_acc
+        new_connectivity = connectivities[-1] + dV_con
+
+        # Bound the values within reasonable limits
+        new_accuracy = max(0, min(1, new_accuracy))  # Accuracy should stay within [0, 1]
+        new_connectivity = max(0, new_connectivity)  # Keep connectivity non-negative
+
+        # Append new states
+        accuracies.append(new_accuracy)
+        connectivities.append(new_connectivity)
+
+    return accuracies, connectivities
+
+# Simulate the future states using the adapted Black-Scholes dynamics
+accuracies, connectivities = simulate_black_scholes(
+    initial_accuracy, initial_connectivity, n_steps, r, sigma, dt
+)
+
+# Print the predicted future states
+for i in range(n_steps + 1):
+    print(f"Step {i}: Accuracy = {accuracies[i]:.2f}, Connectivity = {connectivities[i]:.2f}")
 
 
 

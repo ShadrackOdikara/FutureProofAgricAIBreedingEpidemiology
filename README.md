@@ -6,31 +6,51 @@ The AI model introduces a novel approach to simulating the dynamics of crop dise
 
 The model represents agricultural regions (e.g., cities or farming hubs) as nodes in a graph, with edges connecting them based on trade routes, shared climate zones, or geographical proximity. Each node is assigned attributes such as crop type and disease susceptibility, represented as a cumulative score for each disease.
 
+
+![The description of our model by prompting it to tell us about itself](/pictitures/Model%20Description.jpg)
+
 ---
 
 ## How to Install 
+
+![Offline mode installion of the text generation model and usage for offline inference](/pictitures/installation%20instructions.jpg)
 
 ### Step 1: Download the Model 
 
 #### Option 1: Download the Model in GGUF Format
 
+File size is smaller
+
 ```bash
 CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=1A0cRoxW0BiB7oHZfRNWSQ2UgOhEbOkeW" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
 curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=1A0cRoxW0BiB7oHZfRNWSQ2UgOhEbOkeW" -o potato_Wizard_v59.zip
 ```
+or download directly from goggle drive
+
+[Download from google drive](https://drive.google.com/file/d/1A0cRoxW0BiB7oHZfRNWSQ2UgOhEbOkeW/view?usp=drive_link)
+
 
 #### Option 2: Download the the Full Models Combined
+
+File size is large
 
 ```bash
 CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${19cQGtvHRcTn4RRplXXiPuM5PJuwV3yUs}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
 curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=${19cQGtvHRcTn4RRplXXiPuM5PJuwV3yUs}" -o ${AI_models.zip}
 ```
+or download directly from goggle drive
+
+[Download from google drive](https://drive.google.com/file/d/19cQGtvHRcTn4RRplXXiPuM5PJuwV3yUs/view?usp=drive_link)
 ### Step 2: Download the Scoring Model
 
 ```bash
 CONFIRM=$(curl -sc /tmp/gcookie "https://drive.google.com/uc?export=download&id=${1o6qu2oUe9V0yattIyqCZ0P9aK4obO9Vt}" | grep -o 'confirm=[^&]*' | sed 's/confirm=//')
 curl -Lb /tmp/gcookie "https://drive.google.com/uc?export=download&confirm=${CONFIRM}&id=${1o6qu2oUe9V0yattIyqCZ0P9aK4obO9Vt}" -o ${scoring_model.zip}
 ```
+or download directly from goggle drive
+
+[Download from google drive](https://drive.google.com/file/d/1o6qu2oUe9V0yattIyqCZ0P9aK4obO9Vt/view?usp=drive_link)
+
 ### Step 3: Download and Install Ollama
 
 Install Ollama on macOS: Use the command  
@@ -64,14 +84,21 @@ pip install -r requirements.txt
 
 ## How to Use the Model  
 
-Go to terminal and enter the command  
+![The results output of the ensemble model after promting about which potato variety would be ideal to cultivate in Njoro Kenya](/pictitures/Example%20usage.jpg)
+
+On the first line of Modelfile edit the path to reflect your computer path, where you are installing the model  
+
+Go to terminal and enter the command   
 ```bash
-ollama create potato_Wizard_v59 -f Modelfile
+ollama create potato_Wizard_v59 -f ./potato_Wizard_v59/Modelfile
 ```
 
 wait until the creation is complete  
 
 ### To use the model
+
+![Model usage output](/pictitures/Example%20two%20Model%20output.jpg)
+
 Enter the CLI commands
 
 ```bash

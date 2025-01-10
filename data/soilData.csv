@@ -1,0 +1,178 @@
+﻿City,SOIL,SOILCLASS,DIAGNOSTIC,SOIL_DESCR,DRAINAGE,DEPTH,COLOUR,CONSISTENC,LANDFORM,LITHOLOGY,Descr,County,Subcounty,pH Range
+Molo,UP2,Andosols,Mollic,"Well drained, deep to very deep, dark reddish brown, friable and smeary, silty clay to clay, with a humic topsoil",Well drained,Deep to very deep,Dark reddish brown,"Friable and smeary, silty clay to clay, with a humic topsoil","Uplands, Upper, Middle and Lower Levels",Pyroclastic Rocks,Mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Nakuru,Molo Sub County,4.5 – 6.5
+Kapsowar,UU6,Luvisols and Cambisols,"Orthic and eutric, partly lithic phase","Well drained, deep to very deep, dark reddish brown to dark brown, friable sandy clay loam to clay in places shallow to moderately deep, rocky and stony",Well drained,Deep to very deep,Dark reddish brown to dark brown,"Friable sandy clay loam to clay in places shallow to moderately deep, rocky and stony","Uplands, Upper, Middle and Lower Levels",Undifferentiated Basement System rocks (predominantly gneisses),Mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Elgeyo-Marakwet,Marakwet West Sub County,5.5 – 8.0
+Nairobi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,Nairobi,Starehe Sub County,5.5 – 7.0
+Ol Kalou,HV1,Lithosols and Xerosols,"Calcic, lithic, bouldery and saline phase with Rock Outcrops","Well drained, shallow, dark reddish brown, friable, very calcareous, bouldery or stony, loam to clay loam in many places saline",Well drained,Shallow,Dark reddish brown,"Friable, very calcareous, bouldery or stony, loam to clay loam in many places saline",Hills and Minor Scarps,Undifferentiated or various Igneous Rocks,Unsuitable soil for agriculture,Nyandarua,Olkalou Sub County,5.5 – 8.0
+Engineer,LP2,Planosols,Dystric and eutric,"Imperfectly drained, deep, very dark greyish brown, mottled, firm clay, abruptly underlying a thick topsoil of friable silty clay loam",Imperfectly drained,Deep,Very dark greyish brown,"Mottled, firm clay, abruptly underlying a thick topsoil of friable silty clay loam",Plateaus and high-level structural plains,Pyroclastic Rocks,"Flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging",Nyandarua,Kinangop Sub County,5.5 – 8.0
+Njabini,UV1,Phaeozems,Ando-luvic,"Well drained, very deep, dark reddish brown to very dark greyish brown, friable and slightly smeary clay, with a humic topsoil",Well drained,Very deep,Dark reddish brown to very dark greyish brown,"Friable and slightly smeary clay, with a humic topsoil","Uplands, Upper, Middle and Lower Levels",Undifferentiated or Various Igneous Rocks,Mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Nyandarua,Kinangop Sub County,5.5 – 8.0
+Meru,MV3,Nitisols and Cambisols,"Dystric, eutric and humic, partly lithic phase","Well drained, very deep, dusky red to dark reddish brown, friable clay in places moderately deep to deep",Well drained,Very deep,Dusky red to dark reddish brown,Friable clay in places moderately deep to deep,Mountains and major scarps,Undifferentiated or various Igneous Rocks,"Organic manuring, mulching and protection against soil erosion especially necessary, due to young and/or shallow and slopy soils",Meru,Tigania West Sub County,4.5 – 6.5
+Maua,MV4,Cambisols,"humic, rocky and partly lithic phase","well drained, shallow to moderately deep, dark reddish brown, friable, rocky and stony clay loam, with a humic topsoil",well drained,shallow to moderately deep,dark reddish brown,"friable, rocky and stony clay loam, with a humic topsoil",Mountains and major scarps,Undifferentiated or various Igneous Rocks,"organic manuring, mulching and protection against soil erosion especially necessary, due to young and/or shallow and slopy soils",Meru,Igembe South Sub County,4.5 – 6.5
+Timau,LB13,Luvisols with Lithosols,chromic and ferric,"well drained, moderately deep to deep, dark reddish brown to red, friable sandy clay to clay in places shallow to moderately deep",well drained,moderately deep to deep,dark reddish brown to red,friable sandy clay to clay in places shallow to moderately deep,Plateaus and high-level structural plains,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)","mulching with deep rooting bushes especially profitable because bedrock has many nutrients, but partly or completely unsuitable soil for agriculture",Meru,Buuri Sub County,5.5 – 7.5
+Iten,UI2,Nitisols,eutric,"well drained, very deep to extremely deep, dark red to dark reddish brown, friable clay",well drained,very deep to extremely deep,dark red to dark reddish brown,friable clay,"Uplands, Upper, Middle and Lower Levels","Intermediate Igneous Rocks (andesites, phonolites, syenites, etc.)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Elgeyo-Marakwet,Keiyo North Sub County,4.5 – 6.5
+Kapsowar,UU6,Luvisols and Cambisols,"orthic and eutric, partly lithic phase","well drained, deep to very deep, dark reddish brown to dark brown, friable sandy clay loam to clay in places shallow to moderately deep, rocky and stony",well drained,deep to very deep,dark reddish brown to dark brown,"friable sandy clay loam to clay in places shallow to moderately deep, rocky and stony","Uplands, Upper, Middle and Lower Levels",undifferentiated Basement System rocks (predominantly gneisses),mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Elgeyo-Marakwet,Marakwet West Sub County,5.5 – 7.0
+Njoro,UP2,Andosols,mollic,"well drained, deep to very deep, dark reddish brown, friable and smeary, silty clay to clay, with a humic topsoil",well drained,deep to very deep,dark reddish brown,"friable and smeary, silty clay to clay, with a humic topsoil","Uplands, Upper, Middle and Lower Levels",Pyroclastic Rocks,mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Nakuru,Njoro Sub County,4.5 – 6.5
+Nakuru,PlU1,Solonetz,"undifferentiated, saline phase","imperfectly drained to poorly drained, very deep, dark greyish brown to dark brown, firm to very firm, slightly to moderately calcareous, slightly to moderately saline, moderately to strongly sodic, silt loam to clay in many places with a humic topsoil",imperfectly drained to poorly drained,very deep,dark greyish brown to dark brown,"firm to very firm, slightly to moderately calcareous, slightly to moderately saline, moderately to strongly sodic, silt loam to clay in many places with a humic topsoil",Lacustrine Plains,undifferentiated Basement System rocks (predominantly gneisses),"flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging, but partly or completely unsuitable soil for agriculture",Nakuru,Nakuru West Sub County,7.5 – 9.0
+Kuresoi,RBA,Nitisols and Cambisols,"humic with ando-chromic and humic, partly lithic phase","association OF well drained, very deep to extremely deep, dark reddish brown to dark red, friable clay, in places slightly smeary, with an acid humic topsoil on interfluves (60-70%) AND well drained, shallow to moderately deep, dark reddish brown to dark",well drained,shallow to very deep,dark reddish brown to dark brown,"friable clay, in places slightly smeary, with an acid humic topsoil on interfluves (60-70%) AND friable clay loam to clay, with an acid humic topsoil on side slopes (30-40%)",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)","combination of mulching with deep rooting bushes especially profitable because bedrock has many nutrients and organic manuring, mulching and protection against soil erosion especially necessary, due to young and/or shallow and slopy soils",Nakuru,Kuresoi North Sub County,4.5 – 6.5
+Thika,LBC,"Ironstone with Lithosols, Vertisols and Gleysols",undifferentiated and vertic,"complex OF moderately well drained, shallow, yellowish red to dark yellowish brown, gravelly clay over petroplinthite or rock AND poorly drained, deep to very deep, dark brown to very dark brown, mottled, firm to very firm, cracking clay in places modera",poorly drained to moderately well drained,shallow to very deep,yellowish red to very dark brown,"gravelly clay over petroplinthite or rock AND mottled, firm to very firm, cracking clay in places moderately deep to very deep over petroplinthite",Plateaus and high-level structural plains,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)","flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging, but partly or completely unsuitable soil for agriculture",Kiambu,Thika Town Sub County,4.5 – 8.0
+Limuru,RB3,"Nitisols with Cambisols, Acrisols and Luvisols","eutric with nito-chromic and chromic, partly lithic, pisoferric or petroferric phase","well drained, extremely deep, dusky red to dark reddish brown, friable clay with inclusions of well drained, moderately deep, dark red to dark reddish brown, friable clay over rock, pisoferric or petroferric material",well drained,extremely deep,dusky red to dark reddish brown,"friable clay with inclusions of friable clay over rock, pisoferric or petroferric material",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Kiambu,Limuru Sub County,4.5 – 6.5
+Githunguri,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Kiambu,Githunguri Sub County,4.5 – 6.5
+Bomet,UhB1,Nitisols,mollic,"well drained, very deep to extremely deep, dark red to dark reddish brown, friable clay, with a humic topsoil",well drained,very deep to extremely deep,dark red to dark reddish brown,"friable clay, with a humic topsoil",Upper middle-level uplands,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Bomet,Bomet Central Sub County,4.5 – 6.5
+Sotik,UpY+A,Planosols with Vertisols and Phaeozems,eutric with chromic and chromo-luvic,"association OF poorly drained, deep, very dark grey, very firm, cracking clay, in many places abruptly underlying a topsoil of friable loam on flat parts AND well drained, moderately deep, dark reddish brown, firm clay loam, with a humic topsoil, on slop",poorly drained to well drained,moderately deep to deep,dark reddish brown to very dark grey,"very firm, cracking clay, in many places abruptly underlying a topsoil of friable loam on flat parts AND firm clay loam, with a humic topsoil, on slopes",Upland/high-level plain transitional lands,"Acid Igneous Rocks (Syenites, etc.) with volcanic ash admixtures","combination of flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging and heavy organic manuring and protection against denudation and erosion, due to senile and/or shallow soils",Bomet,Sotik Sub County,5.5 – 8.0
+Mulot,FP1,Phaeozems,ando-luvic,"well drained to moderately well drained, deep to very deep, dark brown, friable and slightly smeary clay, with a humic topsoil",well drained to moderately well drained,deep to very deep,dark brown,"friable and slightly smeary clay, with a humic topsoil",Footslopes,Pyroclastic Rocks,"organic manuring, mulching and protection against denudation, due to young and/or footslope soils",Narok,Narok West Sub County,5.5 – 8.0
+Sunset Town,FP1,Phaeozems,ando-luvic,"well drained to moderately well drained, deep to very deep, dark brown, friable and slightly smeary clay, with a humic topsoil",well drained to moderately well drained,deep to very deep,dark brown,"friable and slightly smeary clay, with a humic topsoil",Footslopes,Pyroclastic Rocks,"organic manuring, mulching and protection against denudation, due to young and/or footslope soils",Narok,Narok West Sub County,5.5 – 8.0
+Nyeri,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Nyeri,Nyeri Central Sub County,4.5 – 6.5
+Karatina,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Nyeri,Mathira East Sub County,4.5 – 6.5
+Kerugoya,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Kirinyaga,Kirinyaga Central Sub County,4.5 – 6.5
+Kutus,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Kirinyaga,Kirinyaga South Sub County,4.5 – 6.5
+Eldoret,LIA1,"Ferralsols with Cambisols, Lithosols and Gleysols","rhodic, partly petroferric phase (60%) with ferralic and gleyic, petroferric and lithic phases (20%) and mollic, partly petroferric phase (20%) and Rock Outcrops","association OF well drained, moderately deep to deep, dark red, very friable clay, over petroplinthite on relatively higher parts AND well to imperfectly drained, shallow to moderately deep, dark red to brown, friable clay over petroplinthite or rock in",poorly drained to well drained,shallow to deep,dark grey to dark red,"very friable clay, over petroplinthite on relatively higher parts AND friable clay over rock in many places mottled, in places very shallow and/or rocky near depressions and valley sides AND mottled, firm clay, with a humic topsoil in many places",Plateaus and high-level structural plains,"Intermediate Igneous Rocks (andesites, phonolites, syenites, etc.)","combination of heavy organic manuring, due to senile deep soils and mulching with deep rooting bushes especially profitable because bedrock has many nutrients and flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging",Uasin Gishu,Moiben Sub County,4.0 – 5.5
+Turbo,LIA2,"Ferralsols with Cambisols, Lithosols and Gleysols","rhodic, partly petroferric phase (30%) with ferralic and gleyic, petroferric and lithic phases (50%) and mollic, partly petroferric phase (20%) and Rock Outcrops","association OF well drained, moderately deep to deep, dark red, very friable clay, over petroplinthite on relatively higher parts AND well to imperfectly drained, shallow to moderately deep, dark red to brown, friable clay over petroplinthite or rock in",poorly drained to well drained,shallow to deep,dark grey to dark red,"very friable clay, over petroplinthite on relatively higher parts AND friable clay over rock in many places mottled, in places very shallow and/or rocky near depressions and valley sides AND mottled, firm clay, with a humic topsoil in many places",Plateaus and high-level structural plains,"Intermediate Igneous Rocks (andesites, phonolites, syenites, etc.)","combination of flood control & drainage, channeling and ridging, due to seasonal inundations and waterlogging and mulching with deep rooting bushes especially profitable because bedrock has many nutrients, but partly or completely unsuitable soil for agriculture",Uasin Gishu,Turbo Sub County,4.0 – 5.5
+Moi's Bridge,UlU1,Ferralsols,rhodic,"well drained, very deep, red to dark red, very friable clay",well drained,very deep,red to dark red,friable clay,Lower-level Uplands,undifferentiated Basement System rocks (predominantly gneisses),"heavy organic manuring, due to senile deep soils",Uasin Gishu,Soy Sub County,4.0 – 5.5
+Kitale,UlU1,Ferralsols,rhodic,"well drained, very deep, red to dark red, very friable clay",well drained,very deep,red to dark red,friable clay,Lower-level Uplands,undifferentiated Basement System rocks (predominantly gneisses),"heavy organic manuring, due to senile deep soils",Trans Nzoia,Kiminini Sub County,4.0 – 5.5
+Endebess,RB2,Nitisols,humic,"well drained, extremely deep, dusky red to dark reddish brown, very friable clay, with an acid humic topsoil",well drained,extremely deep,dusky red to dark reddish brown,"very friable clay, with an acid humic topsoil",Volcanic Footridges,"Basic and ultra-basic igneous rocks (basalts, nepheline phonolites older basic tuffs included)",mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Trans Nzoia,Endebess Sub County,4.5 – 6.5
+Kapenguria,FU1,Luvisols with Ferralsols and Arenosols,chromic with rhodic and luvic to ferralic,"well drained, very deep, yellowish red to dark reddish brown, loose, loamy coarse sand to friable sandy clay loam",well drained,very deep,yellowish red to dark reddish brown,"loose, loamy coarse sand to friable sandy clay loam",Footslopes,undifferentiated Basement System rocks (predominantly gneisses),"heavy organic manuring and protection against denudation and erosion, due to senile and/or shallow soils",West Pokot,West Pokot Sub County,5.5 – 7.0
+Makutano,Y6,Luvisols and Luvisols,"ferralo-ferric and vertic, saline-sodic phase","complex OF well drained, deep to very deep, dark reddish brown, friable to firm, sandy clay to clay on convex to straight slopes AND moderately well drained, deep to very deep, dark reddish brown to dark brown, firm, moderately calcareous clay with a saline and sodic deeper subsoil on concave slopes",moderately well drained to well drained,very deep,dark reddish brown to dark brown,"friable to firm, sandy clay to clay on convex to straight slopes AND firm, moderately calcareous clay with a saline and sodic deeper subsoil on concave slopes",Piedmont Plains,Limestones and Calcitic Mudstones,mulching with deep rooting bushes especially profitable because bedrock has many nutrients,Kajiado,Loitokitok Sub County,5.5 – 7.0
+Bungoma,UlN1,Ferralsols,"rhodic and orthic, partly petroferric phase","well drained, deep to very deep, dark red to dark reddish brown, very friable sandy clay loam to clay in places moderately deep over petroplinthite",well drained,deep to very deep,dark red to dark reddish brown,very friable sandy clay loam to clay in places moderately deep over petroplinthite,Lower-level Uplands,Biotite Gneisses,"heavy organic manuring, due to senile deep soils",Bungoma,Kabuchai Sub County,4.0 – 5.5
+Webuye,UlG3,Acrisols with Lithosols,"orthic and ferralo-orthic, petroferric and partly stony phase with Rock Outcrops","well drained, shallow to moderately deep, dark yellowish brown to strong brown, friable sandy clay over petroplinthite in places very shallow, stony or rocky",well drained,shallow to moderately deep,dark yellowish brown to strong brown,"friable sandy clay over petroplinthite in places very shallow, stony or rocky",Lower-level Uplands,Granites and Granodiorites,"heavy organic manuring and protection against denudation and erosion, due to senile and/or shallow soils",Bungoma,Webuye East Sub County,4.0 – 5.5
+Lima,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Beijing,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+New Delhi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kampala,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Cuzco,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Pisac,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Urubamba,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Puno,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Juliaca,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ayaviri,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huancavelica,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Lircay,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Pampas,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huancayo,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Jauja,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Tarma,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ayacucho,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huanta,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+San Miguel,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huaraz,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Caraz,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chacas,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Cajamarca,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Celendín,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Jaén,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Arequipa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chivay,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Camaná,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Abancay,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Andahuaylas,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huaral,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huacho,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Canta,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Cerro de Pasco,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Oxapampa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Trujillo,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Otuzco,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Huamachuco,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Agra,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kannauj,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Farrukhabad,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Aligarh,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kolkata,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hooghly,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bardhaman,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Cooch Behar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Patna,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Nalanda,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Muzaffarpur,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Gaya,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Jalandhar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Amritsar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ludhiana,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hoshiarpur,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ahmedabad,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Deesa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Gandhinagar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Banaskantha,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Indore,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Gwalior,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bhopal,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hoshangabad,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Shimla,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Solan,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mandi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kullu,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dehradun,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Nainital,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Almora,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Haldwani,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bengaluru,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hassan,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mysuru,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chikkamagaluru,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Guwahati,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Jorhat,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Tezpur,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dibrugarh,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ranchi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dhanbad,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hazaribagh,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bokaro,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Shillong,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Tura,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Jowai,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hohhot,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Baotou,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chifeng,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Harbin,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Qiqihar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mudanjiang,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Lanzhou,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Tianshui,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dingxi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kunming,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dali,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Lijiang,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chengdu,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mianyang,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Dazhou,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Guiyang,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Anshun,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Zunyi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Xian,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Baoji,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Yulin,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Chongqing,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Wanzhou,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Yongchuan,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Yinchuan,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Shizuishan,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Zhongwei,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Urumqi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kashgar,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Korla,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Xining,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Golmud,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Lhasa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Shigatse,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kabale,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Katuna,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kisoro,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bunagana,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mbale,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bududa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kapchorwa,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Suam,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kasese,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Hima,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Fort Portal,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kijura,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bundibugyo,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Nyahuka,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Mbarara,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Isingiro,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Bushenyi,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ishaka,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Rukungiri,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Kanungu,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ntungamo,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Rwashamaire,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Rubanda,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999
+Ikumba,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999

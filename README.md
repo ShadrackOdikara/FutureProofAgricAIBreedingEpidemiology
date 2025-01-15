@@ -101,9 +101,19 @@ wait until the creation is complete
 
 Enter the CLI commands
 
+On the root folder for the ensemble model run
+
+
 ```bash
 python potato_WizardEFRP.py
 ```
+
+or
+
+```bash
+python main.py
+```
+To run the modularized formt which might be slower depending on your computer
 
 or in a raw form while streaming
 

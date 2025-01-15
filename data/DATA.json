@@ -60398,5 +60398,1685 @@
         "Precipitation": 0.29,
         "Rain": 0.29,
         "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:48",
+        "City": "Nairobi",
+        "Temperature": 15.74,
+        "Humidity": 94,
+        "Wind Speed": 3.11,
+        "Precipitation": 0.19,
+        "Rain": 0.19,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:48",
+        "City": "Lima",
+        "Temperature": 24.14,
+        "Humidity": 57,
+        "Wind Speed": 3.6,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:49",
+        "City": "Beijing",
+        "Temperature": -11.06,
+        "Humidity": 23,
+        "Wind Speed": 1.67,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:50",
+        "City": "New Delhi",
+        "Temperature": 10.09,
+        "Humidity": 100,
+        "Wind Speed": 2.57,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:50",
+        "City": "Kampala",
+        "Temperature": 20.53,
+        "Humidity": 75,
+        "Wind Speed": 1.47,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:50",
+        "City": "Ol Kalou",
+        "Temperature": 12.59,
+        "Humidity": 90,
+        "Wind Speed": 1.49,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:51",
+        "City": "Engineer",
+        "Temperature": 0.32,
+        "Humidity": 94,
+        "Wind Speed": 3.65,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:52",
+        "City": "Njabini",
+        "Temperature": 10.91,
+        "Humidity": 94,
+        "Wind Speed": 1.18,
+        "Precipitation": 0.12,
+        "Rain": 0.12,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:52",
+        "City": "Meru",
+        "Temperature": 15.87,
+        "Humidity": 92,
+        "Wind Speed": 1.43,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:53",
+        "City": "Maua",
+        "Temperature": 22.36,
+        "Humidity": 75,
+        "Wind Speed": 3.89,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:53",
+        "City": "Timau",
+        "Temperature": 13.63,
+        "Humidity": 90,
+        "Wind Speed": 1.28,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:53",
+        "City": "Iten",
+        "Temperature": 14.25,
+        "Humidity": 73,
+        "Wind Speed": 1.39,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:54",
+        "City": "Molo",
+        "Temperature": 11,
+        "Humidity": 95,
+        "Wind Speed": 1.56,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:54",
+        "City": "Njoro",
+        "Temperature": 14.53,
+        "Humidity": 80,
+        "Wind Speed": 1.4,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:54",
+        "City": "Nakuru",
+        "Temperature": 17.16,
+        "Humidity": 77,
+        "Wind Speed": 1.33,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:55",
+        "City": "Kuresoi",
+        "Temperature": 11.13,
+        "Humidity": 91,
+        "Wind Speed": 2.85,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:55",
+        "City": "Thika",
+        "Temperature": 15.45,
+        "Humidity": 96,
+        "Wind Speed": 1.54,
+        "Precipitation": 0.79,
+        "Rain": 0.79,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:55",
+        "City": "Limuru",
+        "Temperature": 11.77,
+        "Humidity": 91,
+        "Wind Speed": 2.71,
+        "Precipitation": 0.13,
+        "Rain": 0.13,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:56",
+        "City": "Githunguri",
+        "Temperature": 18.08,
+        "Humidity": 96,
+        "Wind Speed": 2.23,
+        "Precipitation": 0.29,
+        "Rain": 0.29,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:57",
+        "City": "Bomet",
+        "Temperature": 15.06,
+        "Humidity": 83,
+        "Wind Speed": 0.96,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:58",
+        "City": "Sotik",
+        "Temperature": 15.01,
+        "Humidity": 83,
+        "Wind Speed": 0.76,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:58",
+        "City": "Nyeri",
+        "Temperature": 14.11,
+        "Humidity": 95,
+        "Wind Speed": 0.48,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:59",
+        "City": "Karatina",
+        "Temperature": 13.82,
+        "Humidity": 93,
+        "Wind Speed": 1.35,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:59",
+        "City": "Kerugoya",
+        "Temperature": 15.07,
+        "Humidity": 91,
+        "Wind Speed": 2,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:27:59",
+        "City": "Kutus",
+        "Temperature": 16.69,
+        "Humidity": 92,
+        "Wind Speed": 1.52,
+        "Precipitation": 0.22,
+        "Rain": 0.22,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:00",
+        "City": "Eldoret",
+        "Temperature": 15.19,
+        "Humidity": 77,
+        "Wind Speed": 3.04,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:00",
+        "City": "Turbo",
+        "Temperature": 27.2,
+        "Humidity": 71,
+        "Wind Speed": 2.24,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:00",
+        "City": "Moi's Bridge",
+        "Temperature": 17.09,
+        "Humidity": 76,
+        "Wind Speed": 1.39,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:01",
+        "City": "Kitale",
+        "Temperature": 16.47,
+        "Humidity": 76,
+        "Wind Speed": 0.81,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:01",
+        "City": "Endebess",
+        "Temperature": 16.84,
+        "Humidity": 77,
+        "Wind Speed": 0.8,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:01",
+        "City": "Kapenguria",
+        "Temperature": 16.45,
+        "Humidity": 69,
+        "Wind Speed": 1.04,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:02",
+        "City": "Makutano",
+        "Temperature": 18.18,
+        "Humidity": 97,
+        "Wind Speed": 1.94,
+        "Precipitation": 0.49,
+        "Rain": 0.49,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:02",
+        "City": "Bungoma",
+        "Temperature": 20.11,
+        "Humidity": 69,
+        "Wind Speed": 2.06,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:02",
+        "City": "Webuye",
+        "Temperature": 19.54,
+        "Humidity": 69,
+        "Wind Speed": 2.13,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:03",
+        "City": "Cuzco",
+        "Temperature": 16.13,
+        "Humidity": 55,
+        "Wind Speed": 5.14,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:04",
+        "City": "Pisac",
+        "Temperature": 18.62,
+        "Humidity": 55,
+        "Wind Speed": 5.14,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:04",
+        "City": "Urubamba",
+        "Temperature": 11.26,
+        "Humidity": 87,
+        "Wind Speed": 1.54,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:04",
+        "City": "Puno",
+        "Temperature": 10.23,
+        "Humidity": 64,
+        "Wind Speed": 2.95,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:05",
+        "City": "Juliaca",
+        "Temperature": 13.99,
+        "Humidity": 54,
+        "Wind Speed": 3.09,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:05",
+        "City": "Ayaviri",
+        "Temperature": 12.95,
+        "Humidity": 57,
+        "Wind Speed": 3.62,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:05",
+        "City": "Huancavelica",
+        "Temperature": 8.4,
+        "Humidity": 67,
+        "Wind Speed": 3.82,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:06",
+        "City": "Lircay",
+        "Temperature": 12.6,
+        "Humidity": 59,
+        "Wind Speed": 4.08,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:06",
+        "City": "Pampas",
+        "Temperature": 11.88,
+        "Humidity": 70,
+        "Wind Speed": 3.18,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:06",
+        "City": "Huancayo",
+        "Temperature": 14.62,
+        "Humidity": 70,
+        "Wind Speed": 2.06,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:07",
+        "City": "Jauja",
+        "Temperature": 15.02,
+        "Humidity": 60,
+        "Wind Speed": 2.91,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:07",
+        "City": "Tarma",
+        "Temperature": 11.18,
+        "Humidity": 75,
+        "Wind Speed": 3.96,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:08",
+        "City": "Ayacucho",
+        "Temperature": 18.92,
+        "Humidity": 55,
+        "Wind Speed": 2.06,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:08",
+        "City": "Huanta",
+        "Temperature": 19.22,
+        "Humidity": 47,
+        "Wind Speed": 1.71,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:09",
+        "City": "San Miguel",
+        "Temperature": 34.14,
+        "Humidity": 32,
+        "Wind Speed": 1.36,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:09",
+        "City": "Huaraz",
+        "Temperature": 17.26,
+        "Humidity": 62,
+        "Wind Speed": 1.92,
+        "Precipitation": 0.19,
+        "Rain": 0.19,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:09",
+        "City": "Caraz",
+        "Temperature": 22.11,
+        "Humidity": 61,
+        "Wind Speed": 4.03,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:10",
+        "City": "Chacas",
+        "Temperature": 16.71,
+        "Humidity": 53,
+        "Wind Speed": 2.02,
+        "Precipitation": 0.1,
+        "Rain": 0.1,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:10",
+        "City": "Cajamarca",
+        "Temperature": 21.04,
+        "Humidity": 49,
+        "Wind Speed": 3.6,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:10",
+        "City": "Celend\u00edn",
+        "Temperature": 19.83,
+        "Humidity": 54,
+        "Wind Speed": 2.16,
+        "Precipitation": 0.11,
+        "Rain": 0.11,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:11",
+        "City": "Ja\u00e9n",
+        "Temperature": 8.9,
+        "Humidity": 75,
+        "Wind Speed": 1.15,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:11",
+        "City": "Arequipa",
+        "Temperature": 22.04,
+        "Humidity": 26,
+        "Wind Speed": 4.12,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:11",
+        "City": "Chivay",
+        "Temperature": 13.7,
+        "Humidity": 48,
+        "Wind Speed": 2.52,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:12",
+        "City": "Caman\u00e1",
+        "Temperature": 23.06,
+        "Humidity": 77,
+        "Wind Speed": 4.35,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:13",
+        "City": "Abancay",
+        "Temperature": 21.68,
+        "Humidity": 62,
+        "Wind Speed": 3.1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:15",
+        "City": "Andahuaylas",
+        "Temperature": 18.05,
+        "Humidity": 82,
+        "Wind Speed": 3.6,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:15",
+        "City": "Huaral",
+        "Temperature": 24.85,
+        "Humidity": 64,
+        "Wind Speed": 4.02,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:15",
+        "City": "Huacho",
+        "Temperature": 24.23,
+        "Humidity": 70,
+        "Wind Speed": 4.7,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:16",
+        "City": "Canta",
+        "Temperature": 10.26,
+        "Humidity": 93,
+        "Wind Speed": 3.09,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:16",
+        "City": "Cerro de Pasco",
+        "Temperature": 8.89,
+        "Humidity": 69,
+        "Wind Speed": 4.42,
+        "Precipitation": 0.12,
+        "Rain": 0.12,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:16",
+        "City": "Oxapampa",
+        "Temperature": 18.52,
+        "Humidity": 96,
+        "Wind Speed": 0.93,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:17",
+        "City": "Trujillo",
+        "Temperature": 19.98,
+        "Humidity": 83,
+        "Wind Speed": 5.14,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:17",
+        "City": "Otuzco",
+        "Temperature": 16.19,
+        "Humidity": 59,
+        "Wind Speed": 4.96,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:17",
+        "City": "Huamachuco",
+        "Temperature": 18.81,
+        "Humidity": 42,
+        "Wind Speed": 3.06,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:17",
+        "City": "Agra",
+        "Temperature": 11.11,
+        "Humidity": 44,
+        "Wind Speed": 2.5,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:18",
+        "City": "Kannauj",
+        "Temperature": 10.96,
+        "Humidity": 53,
+        "Wind Speed": 1.49,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:18",
+        "City": "Farrukhabad",
+        "Temperature": 10.37,
+        "Humidity": 47,
+        "Wind Speed": 1.33,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:19",
+        "City": "Aligarh",
+        "Temperature": 9.84,
+        "Humidity": 42,
+        "Wind Speed": 2.18,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:19",
+        "City": "Kolkata",
+        "Temperature": 15.97,
+        "Humidity": 72,
+        "Wind Speed": 0,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:20",
+        "City": "Bardhaman",
+        "Temperature": 13.55,
+        "Humidity": 39,
+        "Wind Speed": 2.1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:20",
+        "City": "Patna",
+        "Temperature": 10.96,
+        "Humidity": 93,
+        "Wind Speed": 0,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:20",
+        "City": "Nalanda",
+        "Temperature": 21.31,
+        "Humidity": 97,
+        "Wind Speed": 1.61,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:21",
+        "City": "Muzaffarpur",
+        "Temperature": 13.08,
+        "Humidity": 56,
+        "Wind Speed": 0.41,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:21",
+        "City": "Gaya",
+        "Temperature": 11.47,
+        "Humidity": 55,
+        "Wind Speed": 1.03,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:21",
+        "City": "Jalandhar",
+        "Temperature": 8.63,
+        "Humidity": 54,
+        "Wind Speed": 2.1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:22",
+        "City": "Amritsar",
+        "Temperature": 9.97,
+        "Humidity": 93,
+        "Wind Speed": 2.57,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:22",
+        "City": "Ludhiana",
+        "Temperature": 8.41,
+        "Humidity": 58,
+        "Wind Speed": 2.29,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:22",
+        "City": "Hoshiarpur",
+        "Temperature": 9.54,
+        "Humidity": 55,
+        "Wind Speed": 1.98,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:23",
+        "City": "Ahmedabad",
+        "Temperature": 22.02,
+        "Humidity": 53,
+        "Wind Speed": 1.54,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:23",
+        "City": "Deesa",
+        "Temperature": 18.16,
+        "Humidity": 42,
+        "Wind Speed": 2.84,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:23",
+        "City": "Gandhinagar",
+        "Temperature": 21.99,
+        "Humidity": 53,
+        "Wind Speed": 1.54,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:24",
+        "City": "Indore",
+        "Temperature": 16.1,
+        "Humidity": 67,
+        "Wind Speed": 2.57,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:24",
+        "City": "Gwalior",
+        "Temperature": 11.2,
+        "Humidity": 53,
+        "Wind Speed": 2.36,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:24",
+        "City": "Bhopal",
+        "Temperature": 14.54,
+        "Humidity": 76,
+        "Wind Speed": 1.34,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:25",
+        "City": "Hoshangabad",
+        "Temperature": 14.58,
+        "Humidity": 36,
+        "Wind Speed": 1.57,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:25",
+        "City": "Shimla",
+        "Temperature": 2.59,
+        "Humidity": 36,
+        "Wind Speed": 2.37,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:25",
+        "City": "Solan",
+        "Temperature": 6.55,
+        "Humidity": 43,
+        "Wind Speed": 1.75,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:26",
+        "City": "Mandi",
+        "Temperature": 6.93,
+        "Humidity": 29,
+        "Wind Speed": 1.89,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:26",
+        "City": "Kullu",
+        "Temperature": 2.83,
+        "Humidity": 24,
+        "Wind Speed": 4.1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:26",
+        "City": "Dehradun",
+        "Temperature": 10.09,
+        "Humidity": 49,
+        "Wind Speed": 1.9,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:27",
+        "City": "Nainital",
+        "Temperature": 0.02,
+        "Humidity": 64,
+        "Wind Speed": 1.57,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:27",
+        "City": "Almora",
+        "Temperature": 7.32,
+        "Humidity": 64,
+        "Wind Speed": 0.88,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:28",
+        "City": "Haldwani",
+        "Temperature": 11.58,
+        "Humidity": 69,
+        "Wind Speed": 1.81,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:28",
+        "City": "Bengaluru",
+        "Temperature": 18.95,
+        "Humidity": 91,
+        "Wind Speed": 4.63,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:28",
+        "City": "Hassan",
+        "Temperature": 17.75,
+        "Humidity": 89,
+        "Wind Speed": 1.21,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:29",
+        "City": "Mysuru",
+        "Temperature": 19.49,
+        "Humidity": 82,
+        "Wind Speed": 2.62,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:29",
+        "City": "Chikkamagaluru",
+        "Temperature": 17.13,
+        "Humidity": 82,
+        "Wind Speed": 1.2,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:29",
+        "City": "Guwahati",
+        "Temperature": 13.95,
+        "Humidity": 94,
+        "Wind Speed": 0,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:29",
+        "City": "Jorhat",
+        "Temperature": 14.41,
+        "Humidity": 67,
+        "Wind Speed": 1.31,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:30",
+        "City": "Tezpur",
+        "Temperature": 13.77,
+        "Humidity": 70,
+        "Wind Speed": 1.82,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:30",
+        "City": "Dibrugarh",
+        "Temperature": 14.03,
+        "Humidity": 94,
+        "Wind Speed": 0,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:31",
+        "City": "Ranchi",
+        "Temperature": 9.06,
+        "Humidity": 87,
+        "Wind Speed": 0,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:31",
+        "City": "Dhanbad",
+        "Temperature": 13.87,
+        "Humidity": 47,
+        "Wind Speed": 1.49,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:33",
+        "City": "Hazaribagh",
+        "Temperature": 9.63,
+        "Humidity": 46,
+        "Wind Speed": 0.4,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:33",
+        "City": "Bokaro",
+        "Temperature": 12.79,
+        "Humidity": 46,
+        "Wind Speed": 1.68,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:34",
+        "City": "Shillong",
+        "Temperature": 6.68,
+        "Humidity": 62,
+        "Wind Speed": 0.94,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:34",
+        "City": "Tura",
+        "Temperature": 13.47,
+        "Humidity": 72,
+        "Wind Speed": 1.74,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:34",
+        "City": "Jowai",
+        "Temperature": 7.18,
+        "Humidity": 74,
+        "Wind Speed": 0.62,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:35",
+        "City": "Hohhot",
+        "Temperature": -11.84,
+        "Humidity": 72,
+        "Wind Speed": 1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:35",
+        "City": "Baotou",
+        "Temperature": -7.76,
+        "Humidity": 65,
+        "Wind Speed": 1.31,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:35",
+        "City": "Chifeng",
+        "Temperature": -10.92,
+        "Humidity": 35,
+        "Wind Speed": 2.38,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:36",
+        "City": "Harbin",
+        "Temperature": -20.72,
+        "Humidity": 99,
+        "Wind Speed": 1.87,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:36",
+        "City": "Qiqihar",
+        "Temperature": -26.09,
+        "Humidity": 100,
+        "Wind Speed": 0.85,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:36",
+        "City": "Mudanjiang",
+        "Temperature": -21.29,
+        "Humidity": 99,
+        "Wind Speed": 1.94,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:37",
+        "City": "Lanzhou",
+        "Temperature": -4.47,
+        "Humidity": 79,
+        "Wind Speed": 2.44,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:37",
+        "City": "Tianshui",
+        "Temperature": -3.18,
+        "Humidity": 46,
+        "Wind Speed": 1.05,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:37",
+        "City": "Dingxi",
+        "Temperature": -7.31,
+        "Humidity": 71,
+        "Wind Speed": 2.01,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:38",
+        "City": "Kunming",
+        "Temperature": 1.96,
+        "Humidity": 93,
+        "Wind Speed": 6,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:38",
+        "City": "Dali",
+        "Temperature": 6.04,
+        "Humidity": 85,
+        "Wind Speed": 1.55,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:38",
+        "City": "Lijiang",
+        "Temperature": -0.63,
+        "Humidity": 71,
+        "Wind Speed": 1.62,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:39",
+        "City": "Chengdu",
+        "Temperature": 5.94,
+        "Humidity": 75,
+        "Wind Speed": 3,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:39",
+        "City": "Mianyang",
+        "Temperature": 5.81,
+        "Humidity": 74,
+        "Wind Speed": 1.12,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:40",
+        "City": "Dazhou",
+        "Temperature": 7.23,
+        "Humidity": 80,
+        "Wind Speed": 0.75,
+        "Precipitation": 0.24,
+        "Rain": 0.24,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:40",
+        "City": "Guiyang",
+        "Temperature": 1.27,
+        "Humidity": 69,
+        "Wind Speed": 3,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:41",
+        "City": "Anshun",
+        "Temperature": -0.28,
+        "Humidity": 89,
+        "Wind Speed": 2.93,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:41",
+        "City": "Zunyi",
+        "Temperature": 2.83,
+        "Humidity": 67,
+        "Wind Speed": 0.85,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:41",
+        "City": "Xian",
+        "Temperature": -1.55,
+        "Humidity": 36,
+        "Wind Speed": 2.1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:42",
+        "City": "Baoji",
+        "Temperature": -0.27,
+        "Humidity": 23,
+        "Wind Speed": 2.91,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:42",
+        "City": "Yulin",
+        "Temperature": 12.81,
+        "Humidity": 33,
+        "Wind Speed": 2.87,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:43",
+        "City": "Chongqing",
+        "Temperature": 8.74,
+        "Humidity": 63,
+        "Wind Speed": 1.39,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:43",
+        "City": "Wanzhou",
+        "Temperature": 8.88,
+        "Humidity": 61,
+        "Wind Speed": 0.43,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:43",
+        "City": "Yongchuan",
+        "Temperature": 7.65,
+        "Humidity": 81,
+        "Wind Speed": 1.35,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:43",
+        "City": "Yinchuan",
+        "Temperature": -3.85,
+        "Humidity": 46,
+        "Wind Speed": 4.87,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:44",
+        "City": "Shizuishan",
+        "Temperature": -4.89,
+        "Humidity": 65,
+        "Wind Speed": 5.91,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:44",
+        "City": "Zhongwei",
+        "Temperature": -2.37,
+        "Humidity": 44,
+        "Wind Speed": 1.52,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:44",
+        "City": "Urumqi",
+        "Temperature": -13.47,
+        "Humidity": 85,
+        "Wind Speed": 1,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:45",
+        "City": "Kashgar",
+        "Temperature": -5.44,
+        "Humidity": 63,
+        "Wind Speed": 4,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:45",
+        "City": "Korla",
+        "Temperature": -8.37,
+        "Humidity": 95,
+        "Wind Speed": 1.35,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:46",
+        "City": "Xining",
+        "Temperature": -9.46,
+        "Humidity": 42,
+        "Wind Speed": 0.86,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:46",
+        "City": "Lhasa",
+        "Temperature": -3.96,
+        "Humidity": 22,
+        "Wind Speed": 2.84,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:46",
+        "City": "Shigatse",
+        "Temperature": -2.55,
+        "Humidity": 12,
+        "Wind Speed": 0.78,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:47",
+        "City": "Kabale",
+        "Temperature": 17.14,
+        "Humidity": 71,
+        "Wind Speed": 0.22,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:47",
+        "City": "Katuna",
+        "Temperature": 15.8,
+        "Humidity": 73,
+        "Wind Speed": 0.98,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:47",
+        "City": "Kisoro",
+        "Temperature": 15.47,
+        "Humidity": 75,
+        "Wind Speed": 1.09,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:48",
+        "City": "Mbale",
+        "Temperature": 22.13,
+        "Humidity": 60,
+        "Wind Speed": 1.25,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:48",
+        "City": "Bududa",
+        "Temperature": 21.07,
+        "Humidity": 68,
+        "Wind Speed": 1.38,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:48",
+        "City": "Kapchorwa",
+        "Temperature": 16.39,
+        "Humidity": 65,
+        "Wind Speed": 2.36,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:49",
+        "City": "Suam",
+        "Temperature": 15.14,
+        "Humidity": 75,
+        "Wind Speed": 1.3,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:50",
+        "City": "Kasese",
+        "Temperature": 23.95,
+        "Humidity": 51,
+        "Wind Speed": 1.63,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:50",
+        "City": "Hima",
+        "Temperature": 23.69,
+        "Humidity": 48,
+        "Wind Speed": 1.19,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:51",
+        "City": "Fort Portal",
+        "Temperature": 19.95,
+        "Humidity": 47,
+        "Wind Speed": 0.88,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:51",
+        "City": "Kijura",
+        "Temperature": 19.79,
+        "Humidity": 47,
+        "Wind Speed": 1.38,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:51",
+        "City": "Bundibugyo",
+        "Temperature": 24.24,
+        "Humidity": 44,
+        "Wind Speed": 1.27,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:51",
+        "City": "Nyahuka",
+        "Temperature": 24.05,
+        "Humidity": 49,
+        "Wind Speed": 1.2,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:52",
+        "City": "Mbarara",
+        "Temperature": 20.89,
+        "Humidity": 58,
+        "Wind Speed": 0.72,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:52",
+        "City": "Isingiro",
+        "Temperature": 20.54,
+        "Humidity": 62,
+        "Wind Speed": 1.72,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:52",
+        "City": "Bushenyi",
+        "Temperature": 19.84,
+        "Humidity": 57,
+        "Wind Speed": 0.66,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:53",
+        "City": "Ishaka",
+        "Temperature": 19.57,
+        "Humidity": 55,
+        "Wind Speed": 1.12,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:53",
+        "City": "Rukungiri",
+        "Temperature": 18.14,
+        "Humidity": 67,
+        "Wind Speed": 1.26,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:53",
+        "City": "Kanungu",
+        "Temperature": 18.84,
+        "Humidity": 67,
+        "Wind Speed": 1.78,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:53",
+        "City": "Ntungamo",
+        "Temperature": 21.63,
+        "Humidity": 60,
+        "Wind Speed": 1.65,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:54",
+        "City": "Rwashamaire",
+        "Temperature": 19,
+        "Humidity": 68,
+        "Wind Speed": 0.66,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:54",
+        "City": "Rubanda",
+        "Temperature": 14.6,
+        "Humidity": 73,
+        "Wind Speed": 0.58,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
+    },
+    {
+        "Date": "10/01/2025 22:28:54",
+        "City": "Ikumba",
+        "Temperature": 15.33,
+        "Humidity": 73,
+        "Wind Speed": 0.9,
+        "Precipitation": 0,
+        "Rain": 0,
+        "Snow": 0
     }
 ]

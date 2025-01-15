@@ -161,8 +161,8 @@ Next, we merge the two dataframes to create a single dataframe containing all th
 corresponding attributes of the area the weather data pertains to. These areas represent known potato growing regions 
 for each country within the hackathon/project.
 """
-#results = results.reset_index()
-#merged_df = pd.merge(results, AgroEcologyZones, on='City', how='outer')
+results = results.reset_index()
+merged_df = pd.merge(results, AgroEcologyZones, on='City', how='outer')
 
 """  
     Here we introduce linear regression to predict the future state of the climate parameters that will be used 
@@ -232,7 +232,9 @@ print(combined_predictions)
 
 combined_predictions.rename(columns={'Temperature': 'Mean Temperature', 'Humidity': 'Mean Humidity', 'Wind Speed': 'Mean Wind Speed'}, inplace=True)
 combined_predictions = combined_predictions.reset_index()
-merged_df = pd.merge(combined_predictions, AgroEcologyZones, on='City', how='outer')
+
+"""To activate future predictions uncomment this line below and toment line 164 and 165"""
+#merged_df = pd.merge(combined_predictions, AgroEcologyZones, on='City', how='outer')
 merged_df = pd.merge(merged_df, soilData, on='City', how='outer')
 #print(hum_predictions_df)
 

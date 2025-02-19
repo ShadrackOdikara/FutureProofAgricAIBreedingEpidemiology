@@ -1,5 +1,6 @@
 #!/bin/env python
 import numpy as np
+from math import log
 
 """
     Pedict the future using continuous chain markov model with a blackscholes intergrated to it
@@ -49,7 +50,7 @@ class SimulatorManager:
         self.score = score
         self.initial_connectivity = initial_connectivity
         self.n_steps = n_steps
-        self.r = r
+        self.r = r  # r is dynamically passed
         self.sigma = sigma
         self.dt = dt
 
@@ -67,10 +68,12 @@ class SimulatorManager:
 
     def print_predictions(self, accuracies, connectivities):
         for i in range(self.n_steps + 1):
-            print(f"Step {i}: Accuracy = {accuracies[i]:.2f}, Connectivity = {connectivities[i]:.2f}")
+            print(f"Year {i}: Accuracy = {accuracies[i]:.2f}, Connectivity = {connectivities[i]:.2f}")
 
 # Example usage
-score = 80  # Example score, replace with the actual score value
-sim_manager = SimulatorManager(score, n_steps=5)
-sim_manager.simulate_future_steps()
-
+if __name__ == "__main__":
+    #determinant = 471.1579614810657  # Replace with the actual determinant value
+    score = top_match_score  # Example score, replace with the actual score value
+    r = log(determinant)/100  # Dynamically calculate r based on the determinant
+    sim_manager = SimulatorManager(score, n_steps=5, r=r)  # Pass r explicitly
+    sim_manager.simulate_future_steps()

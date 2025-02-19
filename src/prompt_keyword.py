@@ -121,7 +121,7 @@ if __name__ == "__main__":
     # Create an instance of CityInfo and retrieve city information
     city_info_manager = CityInfo(keywords, epi_risks, cities_data) 
     city_info, matched_lines, epi_info = city_info_manager.get_info(prompt)
-
+    determinant = float(matched_lines[0].split("Risk Determinant: ")[1]) if matched_lines else 1
     # Output the results
     print("City Info:", city_info)
     print("Matched Lines:", matched_lines)

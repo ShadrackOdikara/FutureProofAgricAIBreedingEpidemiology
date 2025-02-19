@@ -74,7 +74,7 @@ class SDGPrinter:
         print("Top Matching Hypotheses:")
         for hypothesis, label, score in similarities[:3]:  # Top 3 matches
             print("\n\n")
-            print(response["message"]["content"])
+            print(response)
             print("\n")
             print(f"Your query aligns to global standard development goal : {hypothesis}")
             print(f"by : {label}")
@@ -92,11 +92,39 @@ class SDGApplication:
         similarities = self.model.calculate_similarity(generated_response, self.hypotheses)
         SDGPrinter.print_top_matching_hypotheses(scoring_input, similarities)
 
-# Example usage
-data_path = './data/'
-scoring_input = {"message": {"content": "Your response content here"}}  # Example input
-model_name = "./scoring_model/fine_tuned_model_with_classification_head"
+    def extract_top_match_score(self, similarities):
+        """Extract the top match score from the similarities."""
+        if similarities:
+            return similarities[0][2]
+        return 0.0
 
-app = SDGApplication(data_path, model_name)
-app.run(scoring_input)
+
+
+# Example usage
+if __name__ == "__main__":
+    data_path = './data/'
+    scoring_input = response.message.content #{"message": {"content": "Your response content here"}}  # Example input
+    model_name = "./scoring_model/fine_tuned_model_with_classification_head"
+
+    # Initialize the SDGApplication
+    app = SDGApplication(data_path, model_name)
+
+    # Run the application and get the top match
+
+    app.run(scoring_input)
+
+    similarities = app.model.calculate_similarity(scoring_input, app.hypotheses)
+    
+    top_match_score = app.extract_top_match_score(similarities)
+    
+#_, _, score = best_match
+    #score = score
+    # Print the best match explicitly if needed
+    
+#    if best_match:
+#        hypothesis, label, score = best_match
+#        global_score = score
+#   else:
+#        print("No matching hypotheses found.")
+    
 

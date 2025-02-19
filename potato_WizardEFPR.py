@@ -20,6 +20,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 #from googleapiclient.discovery import build
 from google.oauth2.service_account import Credentials
 
+import pyfiglet 
+from colorama import Fore
+
 #initialize the gpu should it be found in the system
 torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -62,11 +65,11 @@ try:
     with open(local_data_file, "w") as d:
         json.dump(data, d, indent=4)
 
-    print("Data successfully fetched from Google Sheets and saved locally.")
+    #print("Data successfully fetched from Google Sheets and saved locally.")
 
 except Exception as e:
-    print(f"Failed to access Google Sheets: {e}")
-    print("Attempting to load data from the local file.")
+    #print(f"Failed to access Google Sheets: {e}")
+    #print("Attempting to load data from the local file.")
 
     try:
         # Read the data from the local file
@@ -109,13 +112,13 @@ soilData[['pH Min', 'pH Max']] = soilData['pH Range'].apply(parse_soilrange).app
 
 #soilData['pH Min'] = soilData['pH Min'].fillna(9999)
 #soilData['pH Max'] = soilData['pH Max'].fillna(9999)
-
+"""
 print(soilData)
-
+"""
 
 
 # Load the dataset
-data 
+#data 
 df = pd.DataFrame(data)
 
 # Convert Date column to datetime format
@@ -153,8 +156,10 @@ results = pd.DataFrame({
     'Mean Snow': mean_snow
 })
 
+"""
 print("Results for the last 7 days/intervals per city:")
 print(results)
+"""
 
 """ We reset the index for the mean data per city to enable merging with the agro-ecological zone description data.
 Next, we merge the two dataframes to create a single dataframe containing all the weather information along with the 
@@ -220,16 +225,18 @@ for city in df['City'].unique():
     future_date = datetime.strptime("10/1/2025 13:07:01", "%d/%m/%Y %H:%M:%S")
     future_timestamp = future_date.timestamp()
     for feature, model in models.items():
-        predictions[feature][city] = model.predict([[future_timestamp]])[0]
+        predictions[feature][city] = model.predict(pd.DataFrame([[future_timestamp]], columns=['Timestamp']))[0]
+
 
 # Combine predictions into a single DataFrame
 combined_predictions = pd.DataFrame(predictions)
 combined_predictions.index.name = 'City'
 
 # Print the combined DataFrame
+"""
 print("\nPredicted values for 10/1/2025 per city:")
 print(combined_predictions)
-
+"""
 combined_predictions.rename(columns={'Temperature': 'Mean Temperature', 'Humidity': 'Mean Humidity', 'Wind Speed': 'Mean Wind Speed'}, inplace=True)
 combined_predictions = combined_predictions.reset_index()
 
@@ -311,8 +318,10 @@ for index, city in cities_data.iterrows():
     cities_data.at[index, "Risk_Vector"] = [score for _, score, _, _, _ in calculate_suitability_from_disease_data(city, disease_data)]
 
 # Output updated DataFrame
-print(cities_data[['City', 'Risk_Vector']])
 
+"""
+print(cities_data[['City', 'Risk_Vector']])
+"""
 
 # Graph initialization
 G = nx.Graph()
@@ -439,6 +448,11 @@ epi_risks = [
     for city, determinant in city_risk_determinants.items()
 ]
 
+
+styled_text=pyfiglet.figlet_format('       Welcome    \n  I  am  Buba.   \n    How  can  i  help  you?    ',font= 'doom', width=100)
+print(Fore.BLUE + styled_text.center(200))
+
+
 """
     Implementing and integrating the RAGs by referencing the results from the Epidemiology model, we use keyword 
 concepts to capture and extract key cities from the user's input. However, using the split() method creates a 
@@ -530,7 +544,7 @@ def parse_file(epi_risks, users_city):
 #if users_city:
 #    matched_lines = parse_file(epi_risks, users_city)
 #    print("Matched Lines:", matched_lines)
-#else:
+#else:   ####
 #    matched_lines = []
 #    print("No matched lines since no city was identified.")
  
@@ -792,7 +806,7 @@ accuracies, connectivities = simulate_black_scholes(
 
 # Print the predicted future states
 for i in range(n_steps + 1):
-    print(f"Step {i}: Accuracy = {accuracies[i]:.2f}, Connectivity = {connectivities[i]:.2f}")
+    print(f"Year {i}: Accuracy = {accuracies[i]:.2f}, Connectivity = {connectivities[i]:.2f}")
 
 
 

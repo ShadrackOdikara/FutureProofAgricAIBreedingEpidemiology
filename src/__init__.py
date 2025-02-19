@@ -1,4 +1,3 @@
-from .dat_load import DataLoader
 from .dat_load import DataLoader, Preprocessor, WeatherAnalyzer, Predictor
 from .dis_epi_net import DataPreparation, Helpers, SuitabilityCalculator, RiskVectorUpdater, GraphInitializer, RiskPropagation,RiskEvaluator
 from .prompt_keyword import KeywordExtractor, RiskParser, CityInfo
@@ -9,6 +8,7 @@ import pandas as pd
 import numpy as np
 import networkx as nx
 from numpy.linalg import det
+from math import log
 # Initialize data loader
 data_loader = DataLoader()
 
@@ -65,6 +65,7 @@ city_info_manager = CityInfo(keywords, epi_risks, cities_data)
 #city_info_manager = CityInfo(keywords, epi_risks)
 #city_info, matched_lines, users_city = city_info_manager.get_info(prompt)
 city_info, matched_lines, epi_info = city_info_manager.get_info(prompt)
+determinant = float(matched_lines[0].split("Risk Determinant: ")[1]) if matched_lines else 1
 #city_info, matched_lines, epi_info = city_info_manager.get_info(prompt)
 #epi_info = cities_data.to_json(orient="records", lines=False) if users_city else "{}"    
     # Output the results
@@ -104,14 +105,41 @@ response = potato_model.generate_response(prompt, matched_lines, epi_info)
 
 
 data_path = './data/'
-scoring_input = response  # Example input
+scoring_input = response["message"]["content"] #response.message.content #: "Your response content here"}}  # Example input
 model_name = "./scoring_model/fine_tuned_model_with_classification_head"
 
+    # Initialize the SDGApplication
 app = SDGApplication(data_path, model_name)
+
+    # Run the application and get the top match
+#top_score = app.run(scoring_input)
 app.run(scoring_input)
 
+similarities = app.model.calculate_similarity(scoring_input, app.hypotheses)
+    
+top_match_score = app.extract_top_match_score(similarities)
+
+    #_, _, score = best_match
+    #score = score
+    # Print the best match explicitly if needed
+"""   
+if best_match:
+    hypothesis, label, score = best_match
+    global_score = score
+    print("\n\nExplicit Best Match:")
+    print(f"Hypothesis: {hypothesis}")
+    print(f"Label: {label}")
+    print(f"Confidence Score: {score:.2f}%")
+else:
+    print("No matching hypotheses found.")
+"""
+
+#_, _, score = app.run(scoring_input)#score  # Example score, replace with the actual score value
+r = log(determinant)/100  # Dynamically calculate r based on the determinant
+sim_manager = SimulatorManager(score, n_steps=5, r=r)  # Pass r explicitly
+sim_manager.simulate_future_steps()
 
 # Expose objects
 
-__all__ = ["merged_df", "potato_disease_data", "epi_risks", "city_info", "cities_data", "users_city", "epi_info", "disease_data", "response"]
+__all__ = ["merged_df", "potato_disease_data", "epi_risks", "city_info", "cities_data", "users_city", "epi_info", "disease_data", "response", "score","sim_manager", "r", "determinant", "top_match_score"]
 
